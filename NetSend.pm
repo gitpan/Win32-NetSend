@@ -1,6 +1,7 @@
 package Win32::NetSend;
 
-our $VERSION="0.01";
+our $VERSION="0.02";
+#our $ABSTRACT="Sends message from NT to NT or Win9x running winpopup";
 
 #use strict;
 use warnings;
@@ -81,7 +82,7 @@ sub Send
 
 Win32::NetSend - Sends message from NT to NT or Win9x running winpopup
 
-Version 0.1
+Version 0.2
 
 =head1 SYNOPSIS
 
@@ -93,7 +94,7 @@ Version 0.1
 	$NetSend->Send();
 
 Or can use it:
-	
+
 	my $NetSend = Win32::NetSend->new();
 	$NetSend->Send(
 		to => "user",
@@ -145,7 +146,7 @@ B<Win32::NetSend> requires L<Win32::API> .
 
 =head1 STATUS
 
-This version (0.01) is a beta version. You can use it but interface may change.
+This version (0.02) is a beta version. You can use it but interface may change.
 
 =head1 AUTHOR
 
@@ -153,13 +154,13 @@ Victor Sanchez <vsanchez@cpan.org>
 
 =head2 THANKS
 
-Thanks to peoble of Perl-ES ( htpp://perl-es.sf.net )
+Thanks to people of Perl-ES ( htpp://perl-es.sf.net )
 
-=head1 COPYRIGHT 
+=head1 COPYRIGHT
 
-(c) Copyright 2002 Victor Sanchez <vsanchez@cpan.org>
+(c) Copyright 2002, 2003 Victor Sanchez <vsanchez@cpan.org>
 
 This library is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself. 
+under the same terms as Perl itself.
 
 =cut

@@ -2,7 +2,7 @@ NAME
 
 Win32::NetSend - Sends message from NT to NT or Win9x running winpopup
 
-Version 0.1
+Version 0.2
 
 SYNOPSIS
 
@@ -63,7 +63,7 @@ Win32::NetSend requires Win32::API .
 
 STATUS
 
-This version (0.01) is a beta version. You can use it but interface may change.
+This version (0.02) is a beta version. You can use it but interface may change.
 
 AUTHOR
 
@@ -71,11 +71,11 @@ Victor Sanchez <vsanchez@cpan.org>
 
 THANKS
 
-Thanks to peoble of Perl-ES ( htpp://perl-es.sf.net )
+Thanks to people of Perl-ES ( htpp://perl-es.sf.net )
 
 COPYRIGHT
 
-(c) Copyright 2002 Victor Sanchez <vsanchez@cpan.org>
+(c) Copyright 2002, 2003 Victor Sanchez <vsanchez@cpan.org>
 
 This library is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
